@@ -19,4 +19,9 @@ class DemoApplicationTests {
     void testSum(){
         assertThat(Arifmetic.sum(10, 3), equalTo(13));
     }
+
+    @Test
+    void testSum2(){
+        assertThat(Arifmetic.sum(11, 4), equalTo(15));
+    }
 }
